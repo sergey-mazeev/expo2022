@@ -1,0 +1,110 @@
+mixin modals
+    template#modalTemplate
+        section.modal
+            .modal__body
+                .modal__header
+                    .modal__title
+                    button.modal__close(type="button") <span>Закрыть модальное окно</span>
+                .modal__content
+
+    section.modal#selection
+        .modal__body
+            .modal__header
+                .modal__title Подбор пильного диска
+                button.modal__close(type="button") <span>Закрыть модальное окно</span>
+            .modal__content
+                form.form.form_modal.form_selection(action="/ajax/" method="post" data-modal-title="Подбор пильного диска" data-success="gtag('event', 'Callback', { 'event_category': 'event'  });;ym(8743,'reachGoal','callback');")
+                    .form__item
+                        input.form__input(type="text" name="PROPERTY[NAME]" placeholder="Ваше имя *" autocomplete="off" required)
+                    .form__item
+                        input.form__input(type="email" name="PROPERTY[EMAIL]" placeholder="E-mail")
+                    .form__item
+                        input.form__input(type="tel" name="PROPERTY[PHONE]" placeholder="Телефон *" required)
+                    .form__item
+                        textarea.form__input(name="PROPERTY[QUESTION]" placeholder="Введите сообщение")
+                    .form__item.form__item_file
+                        input#inputFile(type="file" name="PROPERTY[FILE]")
+                        label(for="inputFile") Загрузка файла
+
+                    .form__actions
+                        button.btn.btn_main.btn_accent-2(value="Заказать" type="submit") Отправить
+                        .form__item.form__item_checkbox
+                            input#inputSuggestion1(type="checkbox" checked="checked" required)
+                            label(for="inputSuggestion1") Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+
+    section.modal.modal_sale#saleModal
+        .modal__body
+            .modal__header
+                .modal__title Получите дополнительную выгоду при покупке комплекта пил!
+                button.modal__close(type="button") <span>Закрыть модальное окно</span>
+            .modal__content
+                form.form.form_modal.form_sale(action="/ajax/" method="post" data-modal-title="Получите дополнительную выгоду при покупке комплекта пил!" data-success="gtag('event', 'Callback', { 'event_category': 'event'  });;ym(8743,'reachGoal','callback');")
+                    .form__item.form__item_img
+                        picture
+                            source(srcset="img/img_sale-mobile.jpg" media="(max-width: 550px)")
+                            img(src="img/img_sale.jpg", alt="Скидка 10% при покупке комплекта")
+                    fieldset.form__column
+                        .form__item
+                            input.form__input(type="text" name="PROPERTY[NAME]" placeholder="Ваше имя *" autocomplete="off" required)
+                        .form__item
+                            input.form__input(type="tel" name="PROPERTY[PHONE]" placeholder="Телефон *" required)
+                        .form__item
+                            input.form__input(type="email" name="PROPERTY[EMAIL]" placeholder="E-mail")
+                    fieldset.form__column
+                        .form__item
+                            textarea.form__input(name="PROPERTY[QUESTION]" placeholder="Введите сообщение")
+
+                    .form__actions
+                        button.btn.btn_main.btn_accent-2(value="Заказать" type="submit") Отправить
+                        .form__item.form__item_checkbox
+                            input#inputSuggestion5(type="checkbox" checked="checked" required)
+                            label(for="inputSuggestion5") Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+
+
+    section.modal#order
+        .modal__body
+            .modal__header
+                .modal__title.modal__title_center Заказать пильный диск
+                button.modal__close(type="button") <span>Закрыть модальное окно</span>
+            .modal__content
+                form.form.form_modal.form_order(action="/ajax/" method="post" data-modal-title="Заказать пильный диск" data-success="gtag('event', 'Callback', { 'event_category': 'event'  });;ym(8743,'reachGoal','callback');")
+                    .form__item
+                        input.form__input(type="text" name="PROPERTY[NAME]" placeholder="Ваше имя *" autocomplete="off" required)
+                    .form__item
+                        input.form__input(type="email" name="PROPERTY[EMAIL]" placeholder="E-mail")
+                    .form__item
+                        input.form__input(type="tel" name="PROPERTY[PHONE]" placeholder="Телефон *" required)
+                    .form__item
+                        textarea.form__input(name="PROPERTY[QUESTION]" placeholder="Введите сообщение")
+                    .form__item.form__item_checkbox
+                        input#inputSuggestion2(type="checkbox" checked="checked" required)
+                        label(for="inputSuggestion2") Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+                    .form__actions
+                        button.btn.btn_main(value="Заказать" type="submit") Отправить
+
+
+
+    section.modal#question
+        .modal__body
+            .modal__header
+                .modal__title.modal__title_center Вопрос консультанту
+                button.modal__close(type="button") <span>Закрыть модальное окно</span>
+            .modal__content
+                form.form.form_modal.form_order(action="/ajax/" method="post" data-modal-title="Вопрос консультанту" data-success="gtag('event', 'Callback', { 'event_category': 'event'  });;ym(8743,'reachGoal','callback');")
+                    .form__item
+                        input.form__input(type="text" name="PROPERTY[NAME]" placeholder="Ваше имя *" autocomplete="off" required)
+                    .form__item
+                        input.form__input(type="email" name="PROPERTY[EMAIL]" placeholder="E-mail")
+                    .form__item
+                        input.form__input(type="tel" name="PROPERTY[PHONE]" placeholder="Телефон *" required)
+                    .form__item
+                        textarea.form__input(name="PROPERTY[QUESTION]" placeholder="Введите сообщение")
+                    .form__item.form__item_checkbox
+                        input#inputSuggestion3(type="checkbox" checked="checked" required)
+                        label(for="inputSuggestion3") Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+                    .form__actions
+                        button.btn.btn_main(value="Заказать" type="submit") Задать вопрос

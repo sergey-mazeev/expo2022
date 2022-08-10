@@ -1,0 +1,102 @@
+.topline {
+  background-color: #F7F7FA;
+  padding: 11px 0 12px;
+  color: #4E4E4E;
+  font-size: 14px;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__phones {
+    margin-left: auto;
+  }
+
+  &__phone {
+    span {
+      font-weight: 400;
+    }
+
+    a {
+      color: inherit;
+      font-weight: 600;
+      margin-left: 6px;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.header {
+  padding: 21px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 56px;
+
+    &-img {
+      display: block;
+      width: 117px;
+      height: auto;
+    }
+
+    &-text {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 15px;
+      width: 238px;
+      margin-left: 16px;
+      color: #141414;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__content-wrapper {
+    flex-grow: 1;
+    margin-right: 18px;
+  }
+
+  &__menu {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    a {
+      color: inherit;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__actions {
+
+  }
+
+  &__button {
+    font-size: 15px;
+  }
+
+  &__burger {
+    display: none;
+  }
+}

@@ -1,0 +1,59 @@
+//- Build time for cache reset
+- var timestamp = new Date().getTime();
+//---- Add blocks ----//
+include generated/blocks
+doctype html
+html(lang='ru')
+    head
+        //- Meta
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='imagetoolbar' content='no')
+        meta(name='msthemecompatible' content='no')
+        meta(name='cleartype' content='on')
+        meta(name='HandheldFriendly' content='True')
+
+        meta(name='format-detection' content='telephone=no')
+        meta(name='format-detection' content='address=no')
+
+        meta(name='apple-mobile-web-app-capable' content='yes')
+        meta(name='apple-mobile-web-app-status-bar-style' content='black-translucent')
+
+        //- todo: Генерируем и включаем перед релизом
+        //-include favicon
+
+        include vendor
+        each vendorStyle in vendorStyles
+            link(href= vendorStyle, rel='stylesheet')
+
+        include head_custom
+
+        link(href='css/main.css?' + timestamp rel='stylesheet')
+
+        block head
+
+    - var bodyClasses = [];
+    block beforeBody
+
+    body(class= bodyClasses)
+
+        block header
+
+        block content
+
+        block footer
+
+        each vendorScript in vendorScripts
+            - var attributes = {};
+            - attributes.src = vendorScript[0]
+            if vendorScript[1]
+                - attributes.defer = vendorScript[1] === 'defer' ? 'defer' : 'false';
+                - attributes.async = vendorScript[1] === 'async' ? 'async' : 'false';
+            script&attributes(attributes)
+
+        block scripts
+        script(src='js/mainBundle.js?' + timestamp, defer="defer")
+        script(src='js/vendor/demo.js?' + timestamp, defer="defer")
+
+        include bottom_custom

@@ -1,0 +1,22 @@
+mixin header
+    .topline
+        .container
+            .topline__phones: .topline__phone
+                span Справочный центр:
+                a(href="tel:88000000000") 8 (800) 000-00-00
+    header.header
+        .container
+            a.header__logo(href="/")
+                img.header__logo-img(src="img/logo.svg", alt="KAMI Технологии металлообработки КАМИ", width="117" height="42")
+                span.header__logo-text Технологии металлообработки КАМИ
+            .header__content-wrapper
+                nav.header__menu
+                    ul
+                        li: a(href="#expo") Выставка
+                        li: a(href="#plan") План
+                        li: a(href="#schedule") Программа
+                        li: a(href="#partners") Партнеры
+                        li: a(href="#map") Как добраться
+            .header__actions
+                button.header__button.btn.btn_main.js-header-register(type="button") Регистрация
+                button.header__burger.js-header-burger(type="button") Открыть меню

@@ -1,0 +1,206 @@
+extends main/page_default
+
+block head
+    title Технологии металлообработки «КАМИ»
+
+block beforeBody
+    -bodyClasses.push('front')
+
+block content
+
+    main.main-page
+        section.hero
+            .hero__video
+                video(autoplay="autoplay" loop="loop" poster="./img/content/poster.jpg")
+                    source(src="./hero-video.mp4" type="video/mp4")
+
+            .container
+                a.hero__tag(href="#map")
+                    strong 25-27 октября 2022
+                    span ЦВК «ЭКСПОЦЕНТР»
+                .hero__bottom-line
+                    h1 Технологии <br>металлообработки «КАМИ»
+                    .hero__counter.counter
+                        .counter__nums
+                            .counter__num: span 0
+                            .counter__num: span 9
+                            .counter__num: span 6
+                            .counter__num: span 7
+                        .counter__desc
+                            span Зарегестрированых<br>посетителей
+
+        section.front-list.front-list_z-top#expo
+            .container
+                ul
+                    li.front-list__item
+                        div: img(src="./img/content/icon_area.svg", alt="Площадь экспозиции 3000 м2", width="40" height="38")
+                        span <strong>3 000 м<sup>2</sup></strong> - целый <br>павильон под выставку
+                    li.front-list__item
+                        div: img(src="./img/content/icon_machines.svg", alt="50 работающих станков", width="50" height="50")
+                        span <strong>50</strong> работающих <br>станков
+                    li.front-list__item
+                        div: img(src="./img/content/icon_stock.svg", alt="500 станков готовы к отгрузке", width="45" height="45")
+                        span <strong>500</strong> станков <br>готовы к отгрузке
+
+        section.front-text
+            .container
+                h3.front-text__title Почему нужно посетить?
+                ol.front-text__ol.front-text__ol_rows-2.front-text__ol_bb
+                    li Покажем самые передовые технологии металлообработки из ЮВА, включая <b>5-и осевые и зубообрабатывающие станки, лазеры мощностью более 12 кВТ</b>
+                    li Высокоэффективные <b>инженерные решения</b>, подобранные технологами
+                    li <b>Расширенная гарантия</b> при приобретении станков во время мероприятия<br><i>(на определенные виды станков до 36 мес.)</i>
+                    li <b>Станки в работе</b>, тестовые детали по вашим чертежам для проверки качества
+                h4.front-text__subtitle Зарегистрируйся сейчас и получи:
+                ol.front-text__ol.front-text__ol_rows-2
+                    li <strong>Бесплатный</strong> урок по HCNC в учебном классе ЦТО КАМИ
+                    li <strong>Скидка 50%</strong> на шефмонтаж при покупке станка с выставки
+                    li <strong>Бесплатный</strong> вход во все павильоны выставки
+                    li <strong>Скидка 50%</strong> на инструмент МО
+
+                a.front-text__action.btn.btn_skew(href="#"): span Зарегистрироваться
+                .front-text__desc Также для всех наших посетителей будет предусмотрен ланч в дни проведения выставки и шоу программа.
+
+
+        section.front-block
+            .container
+                h3.front-block__title План выставки
+
+        section.front-block.front-block_bg-grey
+            .container
+                h3.front-block__title Впервые в РФ обучение HCNC на выставке
+                .front-block__content
+                    .cto
+                        .cto__equals
+                            .cto__equal.cto__equal_1 <b>HCNC</b> - <br>эксклюзивно в РФ
+                            .cto__equal.cto__equal_2 Гарантия на <b>3 года</b> <br>на ЧПУ в РФ
+                        .cto__description
+                            .cto__description-wrapper
+                                p <strong>HCNC</strong> - самая распространенная система управления, используется в оборонной промышленности КНР, защищена от любых санкций.
+                                p В нашем современном ЦТО КАМИ осуществляется подготовка квалифицированных	кадров для промышленных предприятий России и стран СНГ.
+                                p Вы сможете на живых примерах опробовать систему HCNC, задать вопросы и получить квалификацию прямо на выставке.
+                                .cto__description-bottom
+                                    a.cto__description-link(href="#") Узнать подробнее
+                                    img.cto__description-logo(src="./img/logo.svg" width="93" height="38")
+                            .cto__description-img: img(src="./img/content/cto/1.jpg", alt="Обучение в ЦТО КАМИ")
+                        .cto__gallery
+                            .swiper
+                                .swiper-wrapper
+                                    - let cto = 2
+                                    while cto < 7
+                                        .swiper-slide
+                                            img(src="./img/content/cto/" + cto + ".jpg", alt="HCNC - эксклюзивно в РФ")
+                                        - cto += 1
+
+        section.front-block#partners
+            .container
+                h3.front-block__title Партнёры
+                .front-block__content
+                    .slider.slider_items
+                        .swiper
+                            .swiper-wrapper
+                                - let i = 1
+                                while i < 13
+                                    .swiper-slide
+                                        img(src="./img/content/partners/" + i + ".jpg" alt='Партнёры выставки "Технологии металлообработки «КАМИ»"')
+                                    - i += 1
+                        .slider__controls
+                            button.slider__control.slider__control_prev.slider__control_disabled(type="button") Назад
+                            button.slider__control.slider__control_next(type="button") Вперед
+
+        section.front-block.front-block_bg-img#schedule
+            .container
+                h3.front-block__title Программа выставки
+                .front-block__content
+                    .schedule
+                        ol
+                            li.schedule__item.schedule-item
+                                .schedule-item__title День 1
+                                .schedule-item__list
+                                    ul
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 10:00
+                                        li.schedule-item__list-item Lorem ipsum dolor.
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet, consectetur.
+                                        li.schedule-item__list-item Lorem ipsum.
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 12:00
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        li.schedule-item__list-item Lorem ipsum.
+                            li.schedule__item.schedule-item
+                                .schedule-item__title День 2
+                                .schedule-item__list
+                                    ul
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 10:00
+                                        li.schedule-item__list-item Lorem ipsum dolor.
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet sit amet, consectetur.
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 12:00
+                                        li.schedule-item__list-item Lorem ipsum.
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            li.schedule__item.schedule-item
+                                .schedule-item__title День 3
+                                .schedule-item__list
+                                    ul
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 10:00
+                                        li.schedule-item__list-item Lorem ipsum dolor.
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet, consectetur.
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 12:00
+                                        li.schedule-item__list-item Lorem ipsum.
+                                        li.schedule-item__list-item Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        li.schedule-item__list-item.schedule-item__list-item_time: span 15:00
+                                        li.schedule-item__list-item Lorem ipsum dolor.
+
+                        a.schedule__button.btn.btn_ghost(href="#")
+                            span Отправить программу выставки на почту
+                            svg(width='491' height='49' viewbox='0 0 491 49' fill='none' xmlns='http://www.w3.org/2000/svg')
+                                path(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButton)")
+                                path.overlap-layer(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButtonFill)")
+                                defs
+                                    lineargradient#lgButton(x1='26.9379' y1='408.5' x2='157.049' y2='-77.9359' gradientunits='userSpaceOnUse')
+                                        stop(offset='0.631021' stop-color='#283583' stop-opacity='0')
+                                        stop(offset='0.834767' stop-color='#283583' stop-opacity='0.526047')
+                                        stop(offset='1' stop-color='#283583' stop-opacity='0.04')
+                                    lineargradient#lgButtonFill(x1='26.9379' y1='408.5' x2='157.049' y2='-77.9359' gradientunits='userSpaceOnUse')
+                                        stop(offset='0.631021' stop-color='#283583' stop-opacity='0.55')
+                                        stop(offset='0.834767' stop-color='#283583' stop-opacity='0.926047')
+                                        stop(offset='1' stop-color='#283583' stop-opacity='0.44')
+
+        section.front-block.front-block_ovh
+            .container
+                h3.front-block__title Как это было
+                .front-block__content
+                    .slider.slider_gallery
+                        .swiper
+                            .swiper-wrapper
+                                .swiper-slide: img(src="./img/content/gallery/1.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/2.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/3.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/4.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/5.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/4.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/3.jpg", alt="Технологии металлообработки «КАМИ»")
+                                .swiper-slide: img(src="./img/content/gallery/2.jpg", alt="Технологии металлообработки «КАМИ»")
+                            .swiper-pagination
+
+                        .slider__controls
+                            button.slider__control.slider__control_prev.slider__control_disabled(type="button") Назад
+                            button.slider__control.slider__control_next(type="button") Вперед
+
+        section.brochure
+            .container
+                .brochure__top
+                    .brochure__date
+                        span 25-27 октября 2022
+                    .brochure__place
+                        span ЦВК «ЭКСПОЦЕНТР»
+                h2.brochure__title Технологии <br>металлообработки КАМИ
+                a.brochure__button.btn.btn_skew(href="#"): span Регистрация на выставку
+                .brochure__img
+                    img(src="./img/content/brochure-img.jpg", alt="Технологии металлообработки «КАМИ»")
+
+        section.map#map
+            .container
+                .map__wrapper <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5ff4fafeee6f8495d5c0b26afe8b981cd25643402def93c4782bc1aa593a5d73&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
+                .map__contacts
+                    h5 ЦВК «ЭКСПОЦЕНТР»
+                    p 123100, Москва, Краснопресненская наб., 14
+                    p Тел.: <a href="tel:88007073799" class="tel">8 (800) 707-37-99</a>, <a href="tel:+74997953799" class="tel">+7 (499) 795-37-99</a>
+                    p.mb_20 E-mail: <a href="mailto:centr@expocentr.ru" target="_blank">centr@expocentr.ru</a>
+                    p Справочный центр: <a href="tel:88000000000" class="tel">8 (800) 000-00-00</a>

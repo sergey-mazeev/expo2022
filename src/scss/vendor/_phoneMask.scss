@@ -1,0 +1,130 @@
+// select для маски телефона
+
+.phone-outer-wrapper {
+  position: relative;
+}
+
+.country-btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.country-btn svg {
+  margin-left: 5px;
+}
+
+.country-btn.active svg {
+  transform: rotate(180deg);
+}
+
+.country-select {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+  z-index: 100;
+  display: none;
+}
+
+.country-select__inner {
+  max-height: 232px;
+  overflow: auto;
+}
+
+.is-ru .ru {
+  display: none;
+}
+
+.is-bl .bl {
+  display: none;
+}
+
+.is-arm .arm {
+  display: none;
+}
+
+.is-azr .azr {
+  display: none;
+}
+
+.is-grz .grz {
+  display: none;
+}
+
+.is-krz .krz {
+  display: none;
+}
+
+.is-mld .mld {
+  display: none;
+}
+
+.is-tdz .tdz {
+  display: none;
+}
+
+.is-trk .trk {
+  display: none;
+}
+
+.is-uzb .uzb {
+  display: none;
+}
+
+.is-ukr .ukr {
+  display: none;
+}
+
+.is-kz .kz {
+  display: none;
+}
+
+.country-select.active {
+  display: block;
+}
+
+.country-select__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.country-select__name {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.country-select__code {
+  color: #9e9e9e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.country-select__item {
+  transition: background-color .25s;
+
+  &:hover {
+    background-color: #e8e2e3;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+}
