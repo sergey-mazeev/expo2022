@@ -61,9 +61,46 @@ block content
                 .front-text__desc Также для всех наших посетителей будет предусмотрен ланч в дни проведения выставки и шоу программа.
 
 
-        section.front-block
+        section.front-block#plan
             .container
                 h3.front-block__title План выставки
+                .front-block__content
+                    .plan
+                        .plan__title Выберете станок из списка, и он отобразится на плане
+                        .plan__list
+                            ol
+                                //- .plan__list-item-active
+                                li.js-plan-list-item(data-item-id="9645047") Линейка 5-ти ос. обр. центров IMU-5X
+                                li Вертикально-токарный станок IVL-500
+                                li Портальный фрез.обр.центр KPM1525
+                                li Горизонтально-фрез. станок KHM80TS
+                                li Трубогиб с ЧПУ IB-CNC 25MULTIBEND
+                                li Лазер. компл. HLF1530 12kW YAWEI
+                                li Панелегиб Yawei FBA 2016
+                                li C400K(ITX408)HNC808D/HCNC DONGBU
+                                li KMT 3015 L1-3000W//ChangTai
+                                li TCM-32SII c ЧПУ Fanuc 0i-TF Plus
+                                li JSL-20AB+barfeeder 3,2м/TWT JINNFA
+                                li CUT-430CHA Автомат. ленточнопил.
+                                li Y3132CNC7 SIEMENS(UHM-320CNC7)
+                                li SPACE 540 Вертикальный ОЦ
+                                li TG45 (GT-45)+Pragati 63/8T servo turret
+                        a.plan__button.btn.btn_ghost(href="#")
+                            span Отправить полный список станков на почту
+                            svg(width='491' height='49' viewbox='0 0 491 49' fill='none' xmlns='http://www.w3.org/2000/svg')
+                                path(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButton)")
+                                path.overlap-layer(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButtonFill)")
+
+                        .plan__img
+                            img.plan__img-img(src="./img/content/plan.jpg")
+                            include map-area.svg
+                            .plan__img-description.plan-desc
+                                button.plan-desc__close(type="button") Закрыть
+                                .plan-desc__img-wrapper
+                                    img(src="", alt="")
+                                .plan-desc__name: a(href="")
+                                .plan-desc__text
+
 
         section.front-block.front-block_bg-grey
             .container

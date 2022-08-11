@@ -1,0 +1,47 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1160.000000pt" height="739.000000pt"
+     viewBox="0 0 1160.000000 739.000000" preserveAspectRatio="xMidYMid meet" class="plan__img-mask">
+    <style>
+        path{
+        -o-transition: fill .2s;
+        -ms-transition: fill .2s;
+        -moz-transition: fill .2s;
+        -webkit-transition: fill .2s;
+        transition: fill .2s;
+        }
+        a:hover path{
+        fill:#EFB0B3;
+        }
+        a:hover {
+        text-decoration: none;}
+        a:hover text {
+        text-decoration:none;
+        }
+        a.plan-item-highlight path{
+        fill:#EFB0B3;
+        }
+    </style>
+
+    <g transform="translate(0.000000,739.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+
+
+        <rect x="0" y="0" width="11600" height="7390" fill="url(#wiujzs)"></rect>
+        <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9645047" data-desc-position="left">
+            <path fill="rgba(2,179,228,0)" stroke="none" d="M9240 4825 l0 -375 465 0 465 0 0 375
+0 375 -465 0 -465 0 0 -375z"></path>
+            <image x="9520" y="-5090" xlink:href="./img/plan/gmu400.png" width="370" transform="scale(1 -1)"></image>
+            <text x="9420" y="-4540" transform="scale(1 -1)" font-size="110" font-family="Montserrat, serif" font-weight="600">GMU-400</text>
+        </a>
+        <a xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#" target="_blank">
+            <path fill="rgba(2,179,228,0)" stroke="none" d="M9245 4348 l-5 -13 2 -358 3 -358 454
+0 454 0 9 9 8 8 -2 360 -3 359 -458 3 -458 2 -4 -12z"></path>
+        </a>
+        <a xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#" target="_blank">
+            <path fill="rgba(2,179,228,0)" stroke="none" d="M9240 3150 l0 -370 463 2 462 3 3 368
+2 367 -465 0 -465 0 0 -370z"></path>
+        </a>
+        <a xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#" target="_blank">
+            <path fill="rgba(2,179,228,0)" stroke="none" d="M9235 2668 l-5 -13 2 -355 3 -355 465
+0 465 0 0 365 0 365 -463 3 -463 2 -4 -12z"></path>
+        </a>
+    </g>
+</svg>
