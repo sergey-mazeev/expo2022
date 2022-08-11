@@ -1,7 +1,7 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish('./built/',{
-    branch: 'pages',
+    branch: 'gh-pages',
 }, function(err) {
     console.log(err)
 });

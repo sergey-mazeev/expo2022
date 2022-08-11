@@ -11,7 +11,7 @@ block content
     main.main-page
         section.hero
             .hero__video
-                video(autoplay="autoplay" loop="loop" poster="./img/content/poster.jpg")
+                video(autoplay="autoplay" loop="loop" muted="muted" poster="./img/content/poster.jpg")
                     source(src="./hero-video.mp4" type="video/mp4")
 
             .container
@@ -102,7 +102,7 @@ block content
                                 .plan-desc__text
 
 
-        section.front-block.front-block_bg-grey
+        section.front-block.front-block_bg-grey.front-block_title-arrow
             .container
                 h3.front-block__title Впервые в РФ обучение HCNC на выставке
                 .front-block__content
@@ -117,7 +117,7 @@ block content
                                 p Вы сможете на живых примерах опробовать систему HCNC, задать вопросы и получить квалификацию прямо на выставке.
                                 .cto__description-bottom
                                     a.cto__description-link(href="#") Узнать подробнее
-                                    img.cto__description-logo(src="./img/logo.svg" width="93" height="38")
+                                    img.cto__description-logo(src="./img/logo_cto.svg" width="93" height="38")
                             .cto__description-img: img(src="./img/content/cto/1.jpg", alt="Обучение в ЦТО КАМИ")
                         .cto__gallery
                             .swiper
@@ -125,7 +125,7 @@ block content
                                     - let cto = 2
                                     while cto < 7
                                         .swiper-slide
-                                            img(src="./img/content/cto/" + cto + ".jpg", alt="HCNC - эксклюзивно в РФ")
+                                            img(src="./img/content/cto/" + cto + ".jpg", alt="HCNC - эксклюзивно в РФ" data-fancybox="gallery_cto" data-src="./img/content/cto/" + cto + ".jpg")
                                         - cto += 1
 
         section.front-block#partners
@@ -206,14 +206,10 @@ block content
                     .slider.slider_gallery
                         .swiper
                             .swiper-wrapper
-                                .swiper-slide: img(src="./img/content/gallery/1.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/2.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/3.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/4.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/5.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/4.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/3.jpg", alt="Технологии металлообработки «КАМИ»")
-                                .swiper-slide: img(src="./img/content/gallery/2.jpg", alt="Технологии металлообработки «КАМИ»")
+                                - let galleryCounter = 1
+                                while galleryCounter < 11
+                                    .swiper-slide: img(src="./img/content/gallery/" + galleryCounter + "_small.jpg", data-src="./img/content/gallery/" + galleryCounter + ".jpg" data-fancybox="gallery" alt="Технологии металлообработки «КАМИ»")
+                                    - galleryCounter += 1
                             .swiper-pagination
 
                         .slider__controls

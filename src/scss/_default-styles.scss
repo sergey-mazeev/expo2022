@@ -1365,6 +1365,27 @@ b, strong {
   &_ovh {
     overflow-x: hidden;
   }
+
+  &_title-arrow {
+    .front-block__title {
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 81px;
+        height: 87px;
+        background-image: url(../img/arrow.svg);
+        background-size: contain;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 2;
+        bottom: 100%;
+        left: 44%;
+      }
+    }
+  }
 }
 
 .slider {
