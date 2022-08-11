@@ -57,7 +57,7 @@ block content
                     li <strong>Бесплатный</strong> вход во все павильоны выставки
                     li <strong>Скидка 50%</strong> на инструмент МО
 
-                a.front-text__action.btn.btn_skew(href="#"): span Зарегистрироваться
+                a.front-text__action.btn.btn_skew(href="#modalRegister" data-fancybox="" data-src="#modalRegister"): span Зарегистрироваться
                 .front-text__desc Также для всех наших посетителей будет предусмотрен ланч в дни проведения выставки и шоу программа.
 
 
@@ -125,7 +125,7 @@ block content
                                     - let cto = 2
                                     while cto < 7
                                         .swiper-slide
-                                            img(src="./img/content/cto/" + cto + ".jpg", alt="HCNC - эксклюзивно в РФ" data-fancybox="gallery_cto" data-src="./img/content/cto/" + cto + ".jpg")
+                                            img(src="./img/content/cto/" + cto + "_small.jpg", alt="HCNC - эксклюзивно в РФ" data-fancybox="gallery_cto" data-src="./img/content/cto/" + cto + ".jpg")
                                         - cto += 1
 
         section.front-block#partners
@@ -224,7 +224,7 @@ block content
                     .brochure__place
                         span ЦВК «ЭКСПОЦЕНТР»
                 h2.brochure__title Технологии <br>металлообработки КАМИ
-                a.brochure__button.btn.btn_skew(href="#"): span Регистрация на выставку
+                a.brochure__button.btn.btn_skew(href="#modalRegister" data-fancybox=""): span Регистрация на выставку
                 .brochure__img
                     img(src="./img/content/brochure-img.jpg", alt="Технологии металлообработки «КАМИ»")
 

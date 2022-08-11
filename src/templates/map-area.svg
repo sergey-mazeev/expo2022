@@ -1,22 +1,22 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1160.000000pt" height="739.000000pt"
      viewBox="0 0 1160.000000 739.000000" preserveAspectRatio="xMidYMid meet" class="plan__img-mask">
     <style>
-        path{
+        .plan__img-mask path{
         -o-transition: fill .2s;
         -ms-transition: fill .2s;
         -moz-transition: fill .2s;
         -webkit-transition: fill .2s;
         transition: fill .2s;
         }
-        a:hover path{
+        .plan__img-mask a:hover path{
         fill:#EFB0B3;
         }
-        a:hover {
+        .plan__img-mask a:hover {
         text-decoration: none;}
-        a:hover text {
+        .plan__img-mask a:hover text {
         text-decoration:none;
         }
-        a.plan-item-highlight path{
+        .plan__img-mask a.plan-item-highlight path{
         fill:#EFB0B3;
         }
     </style>
