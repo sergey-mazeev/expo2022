@@ -16,8 +16,48 @@ mixin modals
                         input.form__input(type='text' name='PROPERTY[COMPANY]' placeholder='Компания')
 
                     .form__actions
-                        button.btn.btn_main(value='Заказать' type='submit') Зарегистрироваться
+                        button.btn.btn_main(value='Зарегистрироваться' type='submit') Зарегистрироваться
                         .form__item.form__item_checkbox
                             input#inputSuggestion1(type='checkbox' checked='checked' required='required')
                             label(for='inputSuggestion1')
+                                | Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+    section#modalProgramm.modal.fancybox__content(style='display: none;')
+        .modal__body
+            .modal__header
+                .modal__title Запрос программы выставки
+            .modal__content
+                form.form.form_modal.js-form(action='' method='post')
+                    .form__item
+                        input.form__input(type='text' name='PROPERTY[NAME]' placeholder='ФИО *' autocomplete='off' required='required')
+                    .form__item
+                        input.form__input(type='email' name='PROPERTY[EMAIL]' placeholder='E-mail *' required='required')
+                    .form__item
+                        input.form__input(type='tel' name='PROPERTY[PHONE]' placeholder='Телефон' inputmode='text' data-country='ru')
+
+                    .form__actions
+                        button.btn.btn_main(value='Запросить' type='submit') Запросить
+                        .form__item.form__item_checkbox
+                            input#inputSuggestion2(type='checkbox' checked='checked' required='required')
+                            label(for='inputSuggestion2')
+                                | Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
+
+    section#modalCatalog.modal.fancybox__content(style='display: none;')
+        .modal__body
+            .modal__header
+                .modal__title Запрос списка станков
+            .modal__content
+                form.form.form_modal.js-form(action='' method='post')
+                    .form__item
+                        input.form__input(type='text' name='PROPERTY[NAME]' placeholder='ФИО *' autocomplete='off' required='required')
+                    .form__item
+                        input.form__input(type='email' name='PROPERTY[EMAIL]' placeholder='E-mail *' required='required')
+                    .form__item
+                        input.form__input(type='tel' name='PROPERTY[PHONE]' placeholder='Телефон' inputmode='text' data-country='ru')
+
+                    .form__actions
+                        button.btn.btn_main(value='Запросить' type='submit') Запросить
+                        .form__item.form__item_checkbox
+                            input#inputSuggestion2(type='checkbox' checked='checked' required='required')
+                            label(for='inputSuggestion2')
                                 | Согласен на обработку <a href="https://www.stanki.ru/politika/" target="_blank">персональных данных</a>
