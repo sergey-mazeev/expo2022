@@ -2049,9 +2049,34 @@ b, strong {
     svg {
       width: 100%;
       height: auto;
+      display: block;
+
+      text {
+        fill: #000000;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Montserrat", Arial, sans-serif;
+      }
+
+      a {
+        cursor: pointer;
+
+        & > rect,
+        & > path {
+          transition: fill .35s;
+        }
+      }
+
+      a:hover {
+        & > rect,
+        & > path {
+          fill: #EFB0B3;
+        }
+      }
     }
 
-    &-img {
+    /*&-img {
       display: block;
       width: 100%;
     }
@@ -2065,7 +2090,7 @@ b, strong {
       a {
         cursor: pointer;
       }
-    }
+    }*/
 
     &-description {
       position: absolute;
