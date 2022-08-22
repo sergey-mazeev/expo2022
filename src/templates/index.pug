@@ -57,7 +57,7 @@ block content
                     li <strong>Бесплатный</strong> вход во все павильоны выставки
                     li <strong>Скидка 50%</strong> на инструмент МО
 
-                a.front-text__action.btn.btn_skew(href="#"): span Зарегистрироваться
+                a.front-text__action.btn.btn_skew(href="#modalRegister" data-fancybox=""): span Зарегистрироваться
                 .front-text__desc Также для всех наших посетителей будет предусмотрен ланч в дни проведения выставки и шоу программа.
 
 
@@ -85,7 +85,7 @@ block content
                                 li Y3132CNC7 SIEMENS(UHM-320CNC7)
                                 li SPACE 540 Вертикальный ОЦ
                                 li TG45 (GT-45)+Pragati 63/8T servo turret
-                        a.plan__button.btn.btn_ghost(href="#")
+                        a.plan__button.btn.btn_ghost(href="#modalCatalog" data-fancybox="")
                             span Отправить полный список станков на почту
                             svg(width='491' height='49' viewbox='0 0 491 49' fill='none' xmlns='http://www.w3.org/2000/svg')
                                 path(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButton)")
@@ -117,7 +117,7 @@ block content
                                 p В нашем современном ЦТО КАМИ осуществляется подготовка квалифицированных	кадров для промышленных предприятий России и стран СНГ.
                                 p Вы сможете на живых примерах опробовать систему HCNC, задать вопросы и получить квалификацию прямо на выставке.
                                 .cto__description-bottom
-                                    a.cto__description-link(href="#") Узнать подробнее
+                                    a.cto__description-link(href="https://cto.stanki.ru" target="_blank") Узнать подробнее
                                     img.cto__description-logo(src="./img/logo_cto.svg" width="93" height="38")
                             .cto__description-img: img(src="./img/content/cto/1.jpg", alt="Обучение в ЦТО КАМИ")
                         .cto__gallery
@@ -126,7 +126,7 @@ block content
                                     - let cto = 2
                                     while cto < 7
                                         .swiper-slide
-                                            img(src="./img/content/cto/" + cto + ".jpg", alt="HCNC - эксклюзивно в РФ" data-fancybox="gallery_cto" data-src="./img/content/cto/" + cto + ".jpg")
+                                            img(src="./img/content/cto/" + cto + "_small.jpg", alt="HCNC - эксклюзивно в РФ" data-fancybox="gallery_cto" data-src="./img/content/cto/" + cto + ".jpg")
                                         - cto += 1
 
         section.front-block#partners
@@ -185,7 +185,7 @@ block content
                                         li.schedule-item__list-item.schedule-item__list-item_time: span 15:00
                                         li.schedule-item__list-item Lorem ipsum dolor.
 
-                        a.schedule__button.btn.btn_ghost(href="#")
+                        a.schedule__button.btn.btn_ghost(href="#modalProgramm" data-fancybox="")
                             span Отправить программу выставки на почту
                             svg(width='491' height='49' viewbox='0 0 491 49' fill='none' xmlns='http://www.w3.org/2000/svg')
                                 path(d='M27.5644 1L1.69198 48H462.441L488.792 1H27.5644Z' stroke-width='2' stroke="url(#lgButton)")
@@ -225,7 +225,7 @@ block content
                     .brochure__place
                         span ЦВК «ЭКСПОЦЕНТР»
                 h2.brochure__title Технологии <br>металлообработки КАМИ
-                a.brochure__button.btn.btn_skew(href="#"): span Регистрация на выставку
+                a.brochure__button.btn.btn_skew(href="#modalRegister" data-fancybox=""): span Регистрация на выставку
                 .brochure__img
                     img(src="./img/content/brochure-img.jpg", alt="Технологии металлообработки «КАМИ»")
 
