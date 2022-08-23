@@ -49,7 +49,8 @@
     </g>
 
 
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9669815" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9669815"
+       data-desc-position="right">
         <rect x="457" y="138" width="236" height="187" rx="5" fill="#E6E8F1"/>
         <text x="514" y="294">IB-CNC25</text>
         <svg width="167" height="71" x="489" y="166" viewBox="0 0 167 71" fill="none"
@@ -121,7 +122,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">3</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9351225" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9351225"
+       data-desc-position="right">
         <rect x="1238" y="138" width="236" height="187" rx="5" fill="#E6E8F1"/>
         <text x="1276" y="294">FBA 2016 FH</text>
         <svg x="1260" y="162" width="191" height="104" viewBox="0 0 191 104" fill="none"
@@ -218,7 +220,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">4</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9437311" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9437311"
+       data-desc-position="left">
         <rect x="1613" y="138" width="271" height="191" rx="5" fill="#E6E8F1"/>
         <text x="1692" y="294">HLF 1530</text>
         <svg x="1628" y="168" width="242" height="84" viewBox="0 0 242 84" fill="none"
@@ -244,7 +247,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">5</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9502086" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9502086"
+       data-desc-position="left">
         <rect x="1913" y="138" width="271" height="191" rx="5" fill="#E6E8F1"/>
         <text x="1994" y="294">HLF 1530</text>
         <svg x="1981" y="16" width="137" height="253" viewBox="0 0 137 253" fill="none"
@@ -378,7 +382,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">7</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9602232" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9602232"
+       data-desc-position="right">
         <rect x="630" y="625" width="142" height="156" rx="5" fill="#E6E8F1"/>
         <text x="638" y="760">VDLS-850</text>
         <svg x="637" y="648" width="126" height="79" viewBox="0 0 126 79" fill="none"
@@ -593,34 +598,35 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">13</div>
         </foreignObject>
     </a>
-<!--    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item">-->
-        <rect x="1030" y="698" width="120" height="153" rx="5" fill="#E6E8F1"/>
-        <text x="1030" y="814">CLS-120V</text>
-        <text x="1048" y="838">ELITE</text>
-        <svg x="1038" y="732" width="103" height="45" viewBox="0 0 103 45" fill="none"
-             xmlns="http://www.w3.org/2000/svg">
-            <rect x="0.25" y="2.99707" width="102.5" height="30.4" fill="#878787" stroke="black" stroke-width="0.5"/>
-            <rect x="0.25" y="33.8965" width="102.5" height="10.4867" fill="#7C6FB1" stroke="black" stroke-width="0.5"/>
-            <rect x="33.6484" y="19.9131" width="36.3933" height="19.2267" fill="white"/>
-            <rect x="40.5117" y="23.3467" width="22.66" height="11.6733" fill="#7C6FB1"/>
-            <rect x="3.43359" y="19.9131" width="26.78" height="2.06" fill="#1A1A18"/>
-            <rect x="13.9844" y="5.74316" width="81.2133" height="10.4867" fill="white" stroke="black"
-                  stroke-width="0.5"/>
-            <rect x="8.92578" y="10.9863" width="4.80667" height="5.49333" fill="#383838"/>
-            <rect x="6.86719" width="20.6" height="2.74667" fill="#383838"/>
-            <rect x="83.3359" y="34.583" width="11.1733" height="9.11333" fill="#D9D9D9" stroke="black"
-                  stroke-width="0.5"/>
-            <line x1="83.0859" y1="38.5693" x2="94.7593" y2="38.5693" stroke="black" stroke-width="0.5"/>
-            <line x1="83.0859" y1="39.8506" x2="94.7593" y2="39.8506" stroke="black" stroke-width="0.5"/>
-            <line x1="83.0859" y1="41.1328" x2="94.7593" y2="41.1328" stroke="black" stroke-width="0.5"/>
-            <line x1="83.0859" y1="42.4141" x2="94.7593" y2="42.4141" stroke="black" stroke-width="0.5"/>
-            <line x1="86.0195" y1="43.9463" x2="86.0195" y2="38.8192" stroke="black" stroke-width="0.5"/>
-            <line x1="88.1406" y1="43.9463" x2="88.1406" y2="38.8192" stroke="black" stroke-width="0.5"/>
-            <line x1="90.2656" y1="43.9463" x2="90.2656" y2="38.8192" stroke="black" stroke-width="0.5"/>
-            <line x1="92.3867" y1="43.9463" x2="92.3867" y2="38.8192" stroke="black" stroke-width="0.5"/>
-        </svg>
-<!--    </a>-->
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9499979" data-desc-position="right">
+    <!--    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item">-->
+    <rect x="1030" y="698" width="120" height="153" rx="5" fill="#E6E8F1"/>
+    <text x="1030" y="814">CLS-120V</text>
+    <text x="1048" y="838">ELITE</text>
+    <svg x="1038" y="732" width="103" height="45" viewBox="0 0 103 45" fill="none"
+         xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.25" y="2.99707" width="102.5" height="30.4" fill="#878787" stroke="black" stroke-width="0.5"/>
+        <rect x="0.25" y="33.8965" width="102.5" height="10.4867" fill="#7C6FB1" stroke="black" stroke-width="0.5"/>
+        <rect x="33.6484" y="19.9131" width="36.3933" height="19.2267" fill="white"/>
+        <rect x="40.5117" y="23.3467" width="22.66" height="11.6733" fill="#7C6FB1"/>
+        <rect x="3.43359" y="19.9131" width="26.78" height="2.06" fill="#1A1A18"/>
+        <rect x="13.9844" y="5.74316" width="81.2133" height="10.4867" fill="white" stroke="black"
+              stroke-width="0.5"/>
+        <rect x="8.92578" y="10.9863" width="4.80667" height="5.49333" fill="#383838"/>
+        <rect x="6.86719" width="20.6" height="2.74667" fill="#383838"/>
+        <rect x="83.3359" y="34.583" width="11.1733" height="9.11333" fill="#D9D9D9" stroke="black"
+              stroke-width="0.5"/>
+        <line x1="83.0859" y1="38.5693" x2="94.7593" y2="38.5693" stroke="black" stroke-width="0.5"/>
+        <line x1="83.0859" y1="39.8506" x2="94.7593" y2="39.8506" stroke="black" stroke-width="0.5"/>
+        <line x1="83.0859" y1="41.1328" x2="94.7593" y2="41.1328" stroke="black" stroke-width="0.5"/>
+        <line x1="83.0859" y1="42.4141" x2="94.7593" y2="42.4141" stroke="black" stroke-width="0.5"/>
+        <line x1="86.0195" y1="43.9463" x2="86.0195" y2="38.8192" stroke="black" stroke-width="0.5"/>
+        <line x1="88.1406" y1="43.9463" x2="88.1406" y2="38.8192" stroke="black" stroke-width="0.5"/>
+        <line x1="90.2656" y1="43.9463" x2="90.2656" y2="38.8192" stroke="black" stroke-width="0.5"/>
+        <line x1="92.3867" y1="43.9463" x2="92.3867" y2="38.8192" stroke="black" stroke-width="0.5"/>
+    </svg>
+    <!--    </a>-->
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9499979"
+       data-desc-position="right">
         <rect x="891" y="867" width="120" height="153" rx="5" fill="#E6E8F1"/>
         <text x="900" y="988">KE 61110</text>
         <svg x="901" y="896" width="101" height="52" viewBox="0 0 101 52" fill="none"
@@ -654,7 +660,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">14</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9270806" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9270806"
+       data-desc-position="right">
         <rect x="1030" y="867" width="120" height="153" rx="5" fill="#E6E8F1"/>
         <text x="1044" y="988">G-42YS</text>
         <svg x="1046" y="888" width="86" height="67" viewBox="0 0 86 67" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -688,7 +695,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">15</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8774555" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8774555"
+       data-desc-position="right">
         <path d="M898 1041C898 1038.24 900.239 1036 903 1036H1138C1140.76 1036 1143 1038.24 1143 1041V1108C1143 1110.76 1140.76 1113 1138 1113H903C900.239 1113 898 1110.76 898 1108V1041Z"
               fill="#E6E8F1"/>
         <text x="1034" y="1070">DH 65L</text>
@@ -721,7 +729,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">16</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9342183" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9342183"
+       data-desc-position="right">
         <path d="M898 1134C898 1131.24 900.239 1129 903 1129H1138C1140.76 1129 1143 1131.24 1143 1134V1246C1143 1248.76 1140.76 1251 1138 1251H903C900.239 1251 898 1248.76 898 1246V1134Z"
               fill="#E6E8F1"/>
         <text x="950" y="1240">NL-635SZC</text>
@@ -758,7 +767,8 @@
         </foreignObject>
     </a>
 
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9686196" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9686196"
+       data-desc-position="right">
         <rect x="1264" y="452" width="245" height="125" rx="5" fill="#E6E8F1"/>
         <text x="1318" y="560">NL-2500SY</text>
         <svg x="1290" y="468" width="194" height="65" viewBox="0 0 194 65" fill="none"
@@ -788,7 +798,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">18</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9686196" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9686196"
+       data-desc-position="left">
         <rect x="1523" y="452" width="245" height="125" rx="5" fill="#E6E8F1"/>
         <text x="1539" y="560">NL-3000BM/1100</text>
         <svg x="1549" y="467" width="194" height="65" viewBox="0 0 194 65" fill="none"
@@ -818,7 +829,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">19</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9689812" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9689812"
+       data-desc-position="left">
         <rect x="1523" y="623" width="245" height="130" rx="5" fill="#E6E8F1"/>
         <text x="1582" y="741">GFIR GT45</text>
         <svg x="1606" y="630" width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1003,7 +1015,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">24</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9673615" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9673615"
+       data-desc-position="right">
         <rect x="1264" y="1129" width="245" height="125" rx="5" fill="#E6E8F1"/>
         <text x="1388" y="1186">VTC50</text>
         <text x="1388" y="1214">HCNC</text>
@@ -1045,7 +1058,8 @@
         </foreignObject>
     </a>
 
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9563365" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="956336511"
+       data-desc-position="left">
         <rect x="1867" y="452" width="158" height="107" rx="5" fill="#E6E8F1"/>
         <text x="1911" y="550">430B</text>
         <svg x="1898" y="442" width="102" height="102" viewBox="0 0 102 102" fill="none"
@@ -1065,7 +1079,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">25</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9563365" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9563365"
+       data-desc-position="left">
         <rect x="1867" y="591" width="158" height="107" rx="5" fill="#E6E8F1"/>
         <text x="1901" y="690">CH 500</text>
         <svg x="1898" y="584" width="102" height="102" viewBox="0 0 102 102" fill="none"
@@ -1085,7 +1100,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">26</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8873449" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8873449"
+       data-desc-position="left">
         <rect x="1867" y="730" width="158" height="107" rx="5" fill="#E6E8F1"/>
         <text x="1890" y="824">DK500ZL</text>
         <svg x="1898" y="745" width="99" height="54" viewBox="0 0 99 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1181,7 +1197,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">29</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9685120" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9685120"
+       data-desc-position="left">
         <rect x="1867" y="1147" width="158" height="107" rx="5" fill="#E6E8F1"/>
         <text x="1886" y="1244">MA1420H</text>
         <svg x="1905" y="1156" width="84" height="61" viewBox="0 0 84 61" fill="none"
@@ -1210,7 +1227,8 @@
         </foreignObject>
     </a>
 
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9685120" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9685120"
+       data-desc-position="left">
         <rect x="2126" y="505" width="215" height="170" rx="5" fill="#E6E8F1"/>
         <text x="2172" y="654">GMU-400</text>
         <svg x="2192" y="528" width="86" height="93" viewBox="0 0 86 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1234,7 +1252,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">31</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646912" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646912"
+       data-desc-position="left">
         <rect x="2126" y="698" width="215" height="170" rx="5" fill="#E6E8F1"/>
         <text x="2172" y="846">GMU-600</text>
         <svg x="2143" y="730" width="181" height="79" viewBox="0 0 181 79" fill="none"
@@ -1253,7 +1272,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">32</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646927" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646927"
+       data-desc-position="left">
         <rect x="2126" y="891" width="215" height="170" rx="5" fill="#E6E8F1"/>
         <text x="2174" y="1046">GMU-630</text>
         <svg x="2157" y="903" width="152" height="113" viewBox="0 0 152 113" fill="none"
@@ -1278,7 +1298,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">33</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646927" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9646927"
+       data-desc-position="left">
         <rect x="2126" y="1084" width="215" height="170" rx="5" fill="#E6E8F1"/>
         <text x="2173" y="1243">GMU-800</text>
         <svg x="2181" y="1096" width="107" height="117" viewBox="0 0 107 117" fill="none"
@@ -1373,7 +1394,8 @@
             <rect x="119.691" width="1.88489" height="2.82734" fill="#E4002B"/>
         </svg>
     </g>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9637630" data-desc-position="right">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9637630"
+       data-desc-position="right">
         <rect x="931" y="1375" width="236" height="187" rx="5" fill="#E6E8F1"/>
         <text x="980" y="1536">SPACE 540</text>
         <svg x="978" y="1394" width="143" height="105" viewBox="0 0 143 105" fill="none"
@@ -1407,7 +1429,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">36</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8917936" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="8917936"
+       data-desc-position="left">
         <rect x="1192" y="1375" width="236" height="187" rx="5" fill="#E6E8F1"/>
         <text x="1264" y="1536">TE-1060</text>
         <svg x="1226" y="1398" width="163" height="99" viewBox="0 0 163 99" fill="none"
@@ -1429,7 +1452,8 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">37</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9571795" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9571795"
+       data-desc-position="left">
         <rect x="1452" y="1375" width="236" height="187" rx="5" fill="#E6E8F1"/>
         <text x="1510" y="1536">VMC 1470</text>
         <svg x="1500" y="1398" width="156" height="98" viewBox="0 0 156 98" fill="none"
@@ -1480,7 +1504,8 @@
         </foreignObject>
     </a>
 
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9678639" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9678639"
+       data-desc-position="left">
         <rect x="1744" y="1527" width="177" height="142" rx="5" fill="#E6E8F1"/>
         <text x="1764" y="1644">ZMAT F855</text>
         <text x="1788" y="1664">HCNC</text>
@@ -1525,15 +1550,21 @@
             <div xmlns="http://www.w3.org/1999/xhtml" class="plan__counter-item">39</div>
         </foreignObject>
     </a>
-    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9669358" data-desc-position="left">
+    <a xmlns:xlink="https://www.w3.org/1999/xlink" class="js-plan-item" data-item-id="9669358"
+       data-desc-position="left">
         <rect x="2164" y="1527" width="177" height="142" rx="5" fill="#E6E8F1"/>
         <text x="2170" y="1652">C400K HCNC</text>
-        <svg x="2202" y="1542" width="103" height="81" viewBox="0 0 103 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg x="2202" y="1542" width="103" height="81" viewBox="0 0 103 81" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
             <mask id="path-1-inside-1_368_90" fill="white">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.63671 4.38379H102.718V64.5118H46.3484V73.9067H5.63671V64.5118V64.5117V64.5114H0V43.8423L5.63671 39.4582V4.38379Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M5.63671 4.38379H102.718V64.5118H46.3484V73.9067H5.63671V64.5118V64.5117V64.5114H0V43.8423L5.63671 39.4582V4.38379Z"/>
             </mask>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.63671 4.38379H102.718V64.5118H46.3484V73.9067H5.63671V64.5118V64.5117V64.5114H0V43.8423L5.63671 39.4582V4.38379Z" fill="#F8F8F8"/>
-            <path d="M102.718 4.38379H103.218V3.88379H102.718V4.38379ZM5.63671 4.38379V3.88379H5.13671V4.38379H5.63671ZM102.718 64.5118V65.0118H103.218V64.5118H102.718ZM46.3484 64.5118V64.0118H45.8484V64.5118H46.3484ZM46.3484 73.9067V74.4067H46.8484V73.9067H46.3484ZM5.63671 73.9067H5.13671V74.4067H5.63671V73.9067ZM5.63671 64.5114H6.13671V64.0114H5.63671V64.5114ZM0 64.5114H-0.5V65.0114H0V64.5114ZM0 43.8423L-0.30697 43.4477L-0.5 43.5978V43.8423H0ZM5.63671 39.4582L5.94368 39.8529L6.13671 39.7028V39.4582H5.63671ZM102.718 3.88379H5.63671V4.88379H102.718V3.88379ZM103.218 64.5118V4.38379H102.218V64.5118H103.218ZM46.3484 65.0118H102.718V64.0118H46.3484V65.0118ZM46.8484 73.9067V64.5118H45.8484V73.9067H46.8484ZM5.63671 74.4067H46.3484V73.4067H5.63671V74.4067ZM5.13671 64.5118V73.9067H6.13671V64.5118H5.13671ZM5.13671 64.5117V64.5118H6.13671V64.5117H5.13671ZM5.13671 64.5114V64.5117H6.13671V64.5114H5.13671ZM5.63671 64.0114H0V65.0114H5.63671V64.0114ZM0.5 64.5114V43.8423H-0.5V64.5114H0.5ZM0.30697 44.237L5.94368 39.8529L5.32974 39.0635L-0.30697 43.4477L0.30697 44.237ZM5.13671 4.38379V39.4582H6.13671V4.38379H5.13671Z" fill="black" mask="url(#path-1-inside-1_368_90)"/>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.63671 4.38379H102.718V64.5118H46.3484V73.9067H5.63671V64.5118V64.5117V64.5114H0V43.8423L5.63671 39.4582V4.38379Z"
+                  fill="#F8F8F8"/>
+            <path d="M102.718 4.38379H103.218V3.88379H102.718V4.38379ZM5.63671 4.38379V3.88379H5.13671V4.38379H5.63671ZM102.718 64.5118V65.0118H103.218V64.5118H102.718ZM46.3484 64.5118V64.0118H45.8484V64.5118H46.3484ZM46.3484 73.9067V74.4067H46.8484V73.9067H46.3484ZM5.63671 73.9067H5.13671V74.4067H5.63671V73.9067ZM5.63671 64.5114H6.13671V64.0114H5.63671V64.5114ZM0 64.5114H-0.5V65.0114H0V64.5114ZM0 43.8423L-0.30697 43.4477L-0.5 43.5978V43.8423H0ZM5.63671 39.4582L5.94368 39.8529L6.13671 39.7028V39.4582H5.63671ZM102.718 3.88379H5.63671V4.88379H102.718V3.88379ZM103.218 64.5118V4.38379H102.218V64.5118H103.218ZM46.3484 65.0118H102.718V64.0118H46.3484V65.0118ZM46.8484 73.9067V64.5118H45.8484V73.9067H46.8484ZM5.63671 74.4067H46.3484V73.4067H5.63671V74.4067ZM5.13671 64.5118V73.9067H6.13671V64.5118H5.13671ZM5.13671 64.5117V64.5118H6.13671V64.5117H5.13671ZM5.13671 64.5114V64.5117H6.13671V64.5114H5.13671ZM5.63671 64.0114H0V65.0114H5.63671V64.0114ZM0.5 64.5114V43.8423H-0.5V64.5114H0.5ZM0.30697 44.237L5.94368 39.8529L5.32974 39.0635L-0.30697 43.4477L0.30697 44.237ZM5.13671 4.38379V39.4582H6.13671V4.38379H5.13671Z"
+                  fill="black" mask="url(#path-1-inside-1_368_90)"/>
             <rect x="45.0977" y="8.14258" width="36.3274" height="37.58" fill="#141414"/>
             <rect x="12.5273" width="36.3274" height="53.2384" fill="#005BCE"/>
             <rect x="72.0273" width="9.39501" height="53.2384" fill="#005BCE"/>
@@ -1552,7 +1583,8 @@
             <rect x="32.5703" y="78.918" width="3.758" height="1.25267" fill="black"/>
             <path d="M28.1836 73.9072H46.3473V75.7862H29.4363L28.1836 73.9072Z" fill="black"/>
             <path d="M58.5625 63.8857H87.0607V71.4017H62.0073L58.5625 63.8857Z" fill="#141414"/>
-            <rect x="79.7969" y="14.6553" width="16.411" height="14.532" fill="#D9D9D9" stroke="black" stroke-width="0.5"/>
+            <rect x="79.7969" y="14.6553" width="16.411" height="14.532" fill="#D9D9D9" stroke="black"
+                  stroke-width="0.5"/>
             <line x1="79.5469" y1="21.1689" x2="96.4579" y2="21.1689" stroke="black" stroke-width="0.5"/>
             <line x1="79.5469" y1="23.1748" x2="96.4579" y2="23.1748" stroke="black" stroke-width="0.5"/>
             <line x1="79.5469" y1="25.1787" x2="96.4579" y2="25.1787" stroke="black" stroke-width="0.5"/>

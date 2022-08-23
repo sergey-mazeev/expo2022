@@ -201,7 +201,6 @@ const getDescriptionPrice = async (link) => {
         .then(windows1251ResponseToUTF8Response)
         .then(resp => resp.text())
         .then((data) => {
-            console.log(data)
             const parser = new DOMParser();
             const doc = parser.parseFromString(data, "text/html");
 
