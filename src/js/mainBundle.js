@@ -100,8 +100,10 @@ const closePlanDesc = (removePosition, changeActive) => {
     document.querySelector('.plan__img-description').classList.remove('plan__img-description_open');
 
     if (removePosition) {
-        document.querySelector('.plan__img-description').classList.remove('plan__img-description_left');
-        document.querySelector('.plan__img-description').classList.remove('plan__img-description_right');
+        setTimeout(() => {
+            document.querySelector('.plan__img-description').classList.remove('plan__img-description_left');
+            document.querySelector('.plan__img-description').classList.remove('plan__img-description_right');
+        }, 350)
     }
     if (changeActive) {
         document.querySelector('.plan__list-item-active').classList.remove('plan__list-item-active');
@@ -116,7 +118,7 @@ const openPlanDesc = () => {
 const handlePlanClick = (link, data) => {
     const id = link.getAttribute('data-item-id');
     const position = link.getAttribute('data-desc-position');
-    data.then(({items}) => {
+    data.then(async ({items}) => {
         const item = items[id];
 
         if (!item) {
@@ -138,7 +140,7 @@ const handlePlanClick = (link, data) => {
         planList.querySelector('[data-item-id="' + id + '"]').classList.add('plan__list-item-active')
         link.classList.add('plan-item-highlight');
 
-        const change = fillPlanDescription(item, position);
+        const change = await fillPlanDescription(item, position);
         if (change) {
             closePlanDesc(false);
             openPlanDesc();
@@ -156,18 +158,24 @@ const bindPlanClick = (link, data) => {
     })
 }
 
-const fillPlanDescription = ({link, name, img, text}, position) => {
+const fillPlanDescription = async ({link, name, img, text}, position) => {
 
     const desc = document.querySelector('.plan-desc');
     const imageNode = desc.querySelector('.plan-desc__img-wrapper img');
     const nameNode = desc.querySelector('.plan-desc__name a');
     const textNode = desc.querySelector('.plan-desc__text');
+    const priceNode = desc.querySelector('.plan-desc__price');
+    const price = await getDescriptionPrice(link) || null;
 
     imageNode.setAttribute('src', img);
     imageNode.setAttribute('alt', name);
     nameNode.setAttribute('href', link)
     nameNode.innerText = name;
     textNode.innerText = text;
+
+    if (price) {
+        priceNode.innerText = price;
+    }
 
     const change = !desc.classList.contains(`plan__img-description_${position}`);
     if (change) {
@@ -177,6 +185,32 @@ const fillPlanDescription = ({link, name, img, text}, position) => {
     return change;
 }
 
+async function windows1251ResponseToUTF8Response(response) {
+    return new Response(new TextDecoder("windows-1251").decode(await response.arrayBuffer()));
+}
+
+
+const getDescriptionPrice = async (link) => {
+    if (!link) {
+        return null;
+    }
+
+    return await fetch(link, {
+        method: 'GET',
+    })
+        .then(windows1251ResponseToUTF8Response)
+        .then(resp => resp.text())
+        .then((data) => {
+            console.log(data)
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(data, "text/html");
+
+            return doc.querySelector('.productMain__priceNew')
+                ? doc.querySelector('.productMain__priceNew').innerText
+                : null;
+        }).catch(() => {});
+}
+
 const bindPlanListClick = (item, data) => {
     if (!item || !data) {
         return false;
@@ -184,12 +218,13 @@ const bindPlanListClick = (item, data) => {
 
     item.addEventListener('click', () => {
         const id = item.getAttribute('data-item-id');
+        console.log(id)
 
         if (!id) {
             return false;
         }
 
-        const target = document.querySelector('.plan__img-mask [data-item-id="' + id + '"]');
+        const target = document.querySelector('.plan__img svg [data-item-id="' + id + '"]');
         if (!target) {
             return false;
         }
